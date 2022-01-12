@@ -22,15 +22,13 @@ Starter code has been provided. As long as your mode *returns an array of number
 
 ```js
 module.exports = function (data, width, height) {
-  // manipulate data here
-
+  // example: red-shift image
   for (let i = 0; i < data.length; i += 4) {
     // red = data[i]
     // green = data[i + 1]
     // blue = data[i + 2]
     // alpha = data[i + 3]
 
-    // exmaple: red-shift image
     data[i + 1] = 0
     data[i + 2] = 0
   }
