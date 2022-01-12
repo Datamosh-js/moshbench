@@ -1,0 +1,35 @@
+{
+  "name": "moshbench-cli",
+  "version": "0.0.0",
+  "description": "Dead-drop simple CLI for making new Datamosh modes",
+  "main": "moshbench.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "prettier-standard --verbose --fix && standard --verbose --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Datamosh-js/moshbench-cli.git"
+  },
+  "keywords": [
+    "datamosh",
+    "cli",
+    "mode",
+    "create",
+    "new"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Datamosh-js/moshbench-cli/issues"
+  },
+  "homepage": "https://github.com/Datamosh-js/moshbench-cli#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "datamosh": "^2.1.2"
+  },
+  "devDependencies": {
+    "prettier-standard": "^16.4.1",
+    "standard": "^16.0.4"
+  }
+}
